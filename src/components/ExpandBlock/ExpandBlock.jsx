@@ -3,7 +3,7 @@ import DeleteForeverOutlinedIcon from "@mui/icons-material/DeleteForever";
 import useCollapse from "react-collapsed";
 import "./block.css";
 
-export default function Block(props) {
+export default function ExpandBlock(props) {
   const { title, onClickDelete, children } = props;
   const { getCollapseProps, getToggleProps } = useCollapse();
   return (
