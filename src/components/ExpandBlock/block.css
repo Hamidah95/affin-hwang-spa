@@ -1,0 +1,21 @@
+.block {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 100%;
+  background: transparent;
+  box-shadow: none;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(87, 0, 128);
+}
